@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SISTEMAS DE BOMBEO ARCAAL</title>
+
+  <meta charset="UTF-8"/> <!--PARA ESPECIFICAR EL TIPO DE JUEGOS DE CARACTERES QUE PUEDE MANEJAR LA PÁGINA, charset ES UN ATRIBUTO Y EL VALOR UTF-8 PERMITE ACENTOS CORRECTAMENTE-->
+  <meta http-equiv="X-UA-Compatible" content="IE-edge"/> <!--COMPATIBLE CON INTERNET EXPLORER-->
+  <meta name="viewport" content="width=device-width, initial-scale=1,0" /> <!--NECESARIA PARA ACOMODAR DE MANERA RESPONSIVA A LOS ELEMENTOS HTML, DEPENDIENDO DEL TAMAÑO DEL DISPOSITIVO QUE SE ESTÁ UTILIZANDO, LOS ELEMENTOS HTML SE PUEDEN ACOMODAR AUTOMÁTICAMENTE-->
+
+  <!--ICONO DE LOGO-->
+  <link rel="icon" href="img-logo/logo03.png">
+
+    <!--HOJAS DE ESTILO Y LIGA JQUERY PARA EL MENÚ AJUSTABLE A LA VENTANA-->
+    <link rel="stylesheet" href="style-menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+    
+    <!--HOJA DE ESTILO PARA SCROLL HORIZONTAL SUPERIOR AZUL-->  
+    <link rel="stylesheet" href="css/style-scroll-indicator.css">
+
+    <!--HOJA DE ESTILO PARA BOTÓN QUE SUBE-->
+    <link rel="stylesheet" href="css/style-button-backtotop.css">
+
+    <!--HOJA DE ESTILO PARA FOOTER-->
+    <link rel="stylesheet" href="style-footer.css">
+
+    <!--HOJA DE ESTILO PARA EL CONTENIDO-->
+    <link rel="stylesheet" href="style-body.css">
+
+</head>
+<body>
+
+    <!--ENCABEZADO-->
+    <header>
+      <!--MENÚ-->
+      <div class="heade">
+        <!--<a href="#" class="logo">logo</a>-->
+        <a href="index.html" class="logo">
+          <img src="img-logo/logo_ajustado.png">
+        </a>
+        <div class="navigation">
+          <ul class="menu">
+            <div class="close-btn"></div>
+            <li class="menu-item"><a href="index.html"><i class="fas fa-home"></i> INICIO</a></li>
+            <li class="menu-item active">
+              <a class="sub-btn" href="#"><i class="fas fa-users"></i> NOSOTROS <i class="fas fa-chevron-circle-down"></i></a>
+              <ul class="sub-menu">
+                <li class="sub-item"><a href="mision.html"><i class="fas fa-mountain"></i> MISIÓN</a></li>
+                <li class="sub-item"><a href="vision.html"><i class="fas fa-eye"></i> VISIÓN</a></li>
+                <li class="sub-item"><a href="valores.html"><i class="fas fa-hands-helping"></i> VALORES</a></li>
+              </ul>
+            </li>
+            <li class="menu-item"><a href="servicios.html"><i class="fas fa-hand-holding"></i> SERVICIOS</a></li>
+            <li class="menu-item">
+              <a class="sub-btn" href="#"><i class="fas fa-box-open"></i> PRODUCTOS <i class="fas fa-chevron-circle-down"></i></a>
+              <ul class="sub-menu">
+                <li class="sub-item"><a href="marcas.html"><i class="fas fa-tags"></i> MARCAS</a></li>
+                <li class="sub-item"><a href="catalogo.html"><i class="fas fa-newspaper"></i> CATÁLOGO</a></li>
+              </ul>
+            </li>
+            <li class="menu-item"><a href="contacto.html"><i class="fas fa-id-card"></i> CONTACTO</a></li>
+          </ul>
+        </div>
+        <!--BOTÓN DE MENÚ DESPLEGABLE-->
+        <div class="menu-btn"></div>
+      </div>
+      <!--SCROLL INDICATOR BAR-->
+      <div class="scroll-cont">
+        <div class="scroll-line"></div>
+      </div>
+
+    </header>
+
+    <section class="section-home-mision">
+    </section>
+
+    <section class="section-two">
+      <div class="cont-mision">
+      <p>
+        Ofrecer experiencia comprometida en las necesidades de los sistemas de bombeo a través de nuestros servicios y lograr la confianza y tranquilidad de nuestros clientes.
+      </p>
+      </div>
+      <!--ESPACIO-->
+      <div class="espacio"></div>
+    </section>
+
+    
+  
+
+   <!--TOP BUTTON-->
+   <a id="backtotop"><i class="fa fa-chevron-up"></i></a>
+   <script type="text/javascript" src="js/script-button-backtotop.js"></script>
+
+    <!--PIE DE PÁGINA-->
+   <!--<div class="fo">-->
+     <center>
+       <footer>
+         <div class="waves">
+             <div class="wave" id="wave1"></div>
+             <div class="wave" id="wave2"></div>
+             <div class="wave" id="wave3"></div>
+             <div class="wave" id="wave4"></div>
+         </div>
+         <div class="footer-container">
+           <div class="footer-content-container">
+             <img src="img-logo/logo_corto.png" width="70px">
+             <h3 class="website-logo">ARCAAL</h3>
+           </div>
+   
+           <!--<div class="v"></div>-->
+   
+           <div class="footer-menu1">
+             <div class="footer-content-container">
+               <span class="menu-title">compañia</span>
+               <a href="mision.html" class="menu-item-footer">Misión</a>
+               <a href="servicios.html" class="menu-item-footer">Visión</a>
+               <a href="marcas.html" class="menu-item-footer">Valores</a>
+             </div>
+           </div>
+   
+           <!--<div class="v"></div>-->
+   
+           <div class="footer-menu2">
+             <div class="footer-content-container">
+               <span class="menu-title">ofrecemos</span>
+               <a href="mision.html" class="menu-item-footer">Servicios</a>
+               <a href="servicios.html" class="menu-item-footer">Marcas</a>
+               <a href="marcas.html" class="menu-item-footer">Catálogo</a>
+             </div>
+           </div>
+   
+           <!--<div class="v"></div>-->
+   
+           <div class="footer-contacto">
+             <div class="footer-content-container">
+               <span class="menu-title">contacto</span>
+               <span class="footer-info"><i class="fab fa-whatsapp"></i> 55 7870 0945</span>
+             <span class="footer-info"><i class="fab fa-whatsapp"></i> 55 3079 8847</span>
+             <span class="footer-info"><i class="fas fa-envelope"></i> ventas@arcaal.com</span>
+             </div>
+           </div>
+   
+           <!--<div class="v"></div>-->
+   
+           <div class="footer-content-container">
+             <span class="menu-title">Siguenos</span>
+             <ul class="social_icon">
+               <li><a href="https://www.facebook.com/people/Bombas-y-Sistemas-de-Bombeo-Arcaal/100069236835284/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+               <li><a href="https://twitter.com/arcaalbombas" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a></li>
+               <li><a href="https://www.linkedin.com/mwlite/company/sistemas-de-bombeo-arcaal" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+              
+             </ul>
+           </div>
+          
+       </div>
+       <div class="copyright-container">
+         <!--<p>Copyright © 2022 Sistemas de Bombeo ARCAAL S.A de C.V. Todos los derechos reservados.</p>-->
+         <span class="copyright"><h3><b>&copy;2022, Sistemas de Bombeo ARCAAL S.A de C.V. Todos los derechos reservados.</h3></b></span>
+       </div>
+       </footer>
+       </center>
+
+   <!--CÓDIGO JS-->
+   <script type="text/javascript">
+   //CÓDIGO PARA DESPLEGAR MENÚ Y SUBMENÚ
+   //jquery for toggle dropdown menus
+   $(document).ready(function(){
+     //toggle sub-menus
+     $(".sub-btn").click(function(){
+       $(this).next(".sub-menu").slideToggle();
+     });
+
+     //toggle more-menus
+     $(".more-btn").click(function(){
+       $(this).next(".more-menu").slideToggle();
+     });
+   });
+
+   //javascript for the responsive navigation menu
+   var menu = document.querySelector(".menu");
+   var menuBtn = document.querySelector(".menu-btn");
+   var closeBtn = document.querySelector(".close-btn");
+
+   menuBtn.addEventListener("click", () => {
+     menu.classList.add("active");
+   });
+
+   closeBtn.addEventListener("click", () => {
+     menu.classList.remove("active");
+   });
+
+   </script>
+
+<!--EXTRAER CÓDIGO JS PARA SCROLL INDICATOR BAR-->
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+   <script src="js/script-scroll-indicator.js"></script>
+
+<!--EXTRAER CÓDIGO JS PARA TOP BUTTON-->
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
